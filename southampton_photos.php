@@ -1,56 +1,70 @@
-<!DOCTYPE l PUBLIC "-//W3C//DTD XL 1.0 Strict//EN" "http://www.w3.org/TR/xl1/DTD/xl1-strict.dtd">
-<l xmlns="http://www.w3.org/1999/xl" xml:lang="en" lang="en">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="content-type" content="text/l; charset=utf-8" />
-<meta name="description" content="RBS Treeworks - Tree surgeon for Romsey, Southampton, Eastleigh, Chandlers Ford, New Forest, Stockbridge, Winchester, Salisbury and surrounding villages. Professional tree care services at affordable prices." />
-<meta name="keywords" content="tree, surgeon, surgery, services, southampton, romsey, hampshire, hants, salisbury, eastleigh, winchester, stockbridge, chandlers ford, treeworks, climbing, shaping, fungi, disease, New Forest, RBS, forestry, firewood, chippings, woodchip, arborist, arboriculture, pruning, reductions, dismantling, woods, branches, felling, hedge, trimming, planting, council" />
-
-
-<meta name="robots" content="ALL" />
-<link rel="stylesheet" type="text/css" href="style.css" media="screen" title="RBS tree surgeon (screen)" />
-<link rel="stylesheet" type="text/css" href="print.css" media="print" title="RBS tree surgeon (print)" />
-
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<title>RBS Treeworks - Tree surgeon in Romsey, Southampton and Winchester</title>
-</head>
-
-<body>
+<?php
+	include("head.php");
+	include("menu.php");
+?>
 
 <div class= rb container> 
   <div class="row">
- <!--  NAVIGATION SIDE BAR -->
-			<div class="col-md-3">
-				<nav>
-					<ul class="info">
-						<li><a href="index.html" title="RBS Treeworks">Home</a></li>
-						<li><a href="romsey_services_qualifications.html" title="Tree surgery services">Our services</a></li>
-						<li><a href="southampton_photos.html" title="Photographs">Photos and video</a></li>
-						<li><a href="southampton_references.html" title="Our satisfied customers">Our references</a></li>
-						<li><a href="rbs_news.html" title="RBS Treeworks news">RBS Treeworks news</a></li>
-						<li><a href="vacancies.html" title="Current jobs">Current vacancies</a></li>
-						<li><a href="faqs.html" title="Frequently asked questions">FAQs</a></li>
-						<li><a href="contact_romsey_surgeon.html" title="Contact tree surgeons">Contact us</a></li>
-					</ul>
-				</nav>
-			</div>
 
 
 
- <div class="col-md-6">
+<!--  THE MAIN CONTENT STARTS FROM HERE  -->
+
+<div class="col-md-6">
   <section>
  <img src="images/logo.gif" alt="RBS Treeworks logo" width="210px" height="50px"/> 
-<h2>Current vacancies</h2>
+<h2 id="new">Our photos</h2>
 <hr>
-
-<p>We have no vacancies for sub-contracting work at present.</p>
-
-</section>
+<!-- HERE YOU CAN ADD IMAGES they will be 2 on a row seperated with divs -->
+	
+	<div class="row">
+      <div class="col-md-6 col-sm-3" >
+       <img src="images/img1.jpg" alt="Landrover Defender" /> 
+      </div>
+	  
+	  
+      <div class="col-md-6 col-sm-3">
+        <img src="images/img2.jpg" alt="Landrover Defender" /> 
+      </div>
+	  
+	  <div class="col-md-6 col-sm-3">
+        <img src="images/img3.jpg" alt="Landrover Defender" /> 
+      </div>
+	  
+	  <div class="col-md-6 col-sm-3">
+        <img src="images/img4.jpg" alt="Landrover Defender" /> 
+      </div>
+	  
+	  <div class="col-md-6 col-sm-3">
+        <img src="images/img5.jpg" alt="Landrover Defender" /> 
+      </div>
+	  
+	  <div class="col-md-6 col-sm-3">
+        <img src="images/img6.jpg" alt="Landrover Defender" /> 
+      </div>
 </div>
+	  
+	  
+	
+<!-- END OF IMAGE SECTION -->
+
+<!-- VDIEO ROW -->
+<div class="row">
+<h2>Our videos</h2>
+<hr>
+<p>Ash tree dismantle (lowering branches) - Winchester - January 2012.</p>
+<iframe   src="http://www.youtube.com/embed/K6LHsCXJ7OI?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<p>We are dismantling a Eucalyptus stem in East Wellow near Romsey - November 2011.</p>
+<iframe   src="http://www.youtube.com/embed/dasCdiulGq0?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>We are crown cleaning a 40ft Ash tree and removing a large unwanted branch - October 2011.</p>
+<iframe  src="http://www.youtube.com/embed/Q6kVqCq89YQ?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+	</section>
+</div>
+<!-- END OF VIDEO ROW -->
 
 
 <!-- 	RIGHT SECTION --> 
@@ -78,7 +92,9 @@ Click here to view our <a href="southampton_references.html">references</a>.</p>
 	 
 			</aside>
 		</div>
-
+		
+		
+		
 
 <!-- FOOTER -->
 		 <div class="col-md-12">
@@ -115,11 +131,10 @@ Click here to view our <a href="southampton_references.html">references</a>.</p>
 		</div>
 
 
-
-
 	</div>
 </div>
 
+
 </body>
-</l>
+</html>
 
