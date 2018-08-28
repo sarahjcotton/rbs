@@ -27,7 +27,7 @@
 					on the best course of action available at the best possible price. We will provide you with a written itemised quotation of
 					the works to be undertaken.</p>
 
-					<p>Under <a href="romsey_services_qualifications.html">our services</a> page, 
+					<p>Under <a href="qualifications.php">our services</a> page, 
 					  you will find a list of all the services available, our qualifications for 
 					  tree work and the answers to some <a href="faqs.html">frequently 
 					  asked questions</a>.</p>
